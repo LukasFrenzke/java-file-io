@@ -4,7 +4,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 
-public class TeamInputStream extends PersonInputStream {
+public class TeamInputStream {
     
     public static void teamReader(File name) throws IOException {
         FileReader fr = new FileReader(name);
