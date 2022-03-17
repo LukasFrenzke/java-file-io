@@ -3,7 +3,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
 
-public class TeamOutputStream extends PersonOutputStream {
+public class TeamOutputStream {
 
     public static void teamWriter(List<Person> name) throws IOException{
         File file = new File("team.txt");
